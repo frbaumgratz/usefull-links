@@ -1,0 +1,57 @@
+// @font-face {
+//    font-family: 'Bison';
+//    src: url('../fonts/Bison-Bold.woff2') format('woff2'),
+//        url('../fonts/Bison-Bold.woff') format('woff');
+//    font-weight: 300;
+//    font-style: normal;
+//    font-display: swap;
+// }
+
+@import "variables";
+
+.ff-title {
+  font-family: $ff-title;
+}
+
+body {
+  background: $dark-color;
+  color: $light-color;
+  font-family: $ff-regular;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links {
+  padding: 5px 0;
+}
+
+.usefull-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .usefull-links_main-title {
+    font-size: 38px;
+  }
+
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+    .usefull-links_topic-title {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .usefull-links_topic-subtitle {
+      font-size: 24px;
+    }
+  }
+}
