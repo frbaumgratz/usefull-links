@@ -31,3 +31,16 @@ a {
       font-weight: bold; }
     .usefull-links .links-container .usefull-links_topic-subtitle {
       font-size: 24px; }
+
+.container {
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify; }
+  .container p {
+    max-width: 1200px;
+    line-height: 28px;
+    letter-spacing: .8px;
+    font-size: 18px;
+    font-weight: 400; }

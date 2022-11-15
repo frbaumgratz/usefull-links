@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>FAQ</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sobre Tamanhos de Imagem, background-image, etc</h1>
+        <p>O designer tem que definir uma área útil da imagem, na qual vão ter as informações importantes que não podem ser cortadas. <strong>Site não é poster!</strong></p>
+        <p>Proporção cara! Se a largura aumenta a altura tem que aumentar também. Pega a imagem mais larga e anota a largura... agora pega as outras imagens e vê quantos pixels a menos elas tem... aí pega o valor que deu, e soma com a altura. Na pratica: se sua imagem mais larga é 100x50, e vc tem uma imagem 50x45... pra ela ocupar a largura da imagem mais larga ela vai ter que esticar 50px de largura, sim? pra ficar com 100. Só que se ela esticar 50px de largura, ela também estica 50px de altura, pra ficar proporcional. Então ela vai ficar 100x95. </p>
+            
+        <p>Se o seu banner é horizontal, a solução pra isso é a largura de todas as imagens serem iguais e a altura ser sempre nivelada pela menor, cortando as que tiverem mais altura. Se o seu banner for vertical é exatamente o contrário. Então pro negocio dar certo vc teria que pegar o container do seu banner e setar<br>
+        width 100%<br>
+        height 50px<br>
+        overflow hidden<br>
+        e cortar os 45px da segunda imagem<br>
+        ai mimimi se cortar 45 px da imagem eu perco os dados
+        aí a gente volta na discussão anterior:</p>
+
+        <p><strong>Area Útil</strong> - conceito básico q aprende no primeiro período da faculdade de design. Se vc sabe q a altura máxima do banner é 50px, vc vai colocar suas infos todas dentro dum espaço de 50px. Não consigo explicar melhor que isso. <strong>Por definição, colocar dados importantes num banner é má prática... pq nunca vai dar leitura suficiente na tela mobile. O correto é o banner ser uma imagem de fundo e o conteúdo importante ser html por cima.</strong> Mas boa sorte explicando isso pra designer que não é web designer</p>   
+    </div>
+    <a href="index.html">Previous Page</a>
+</body>
+</html>
